@@ -1,0 +1,45 @@
+#wrapper{display:grid;
+grid-template-columns:2fr 2fr;
+grid-template-areas:"header header"
+                    "nav nav"
+                    "main side"
+                    "footer footer"}
+
+div{border:1px solid black;}
+body{background-color:white;}
+
+img{width:100px;}
+
+
+#header{grid-area:header;
+        text-align:center;
+        font-size:28px}
+
+#nav{grid-area:nav;
+     font-size:19px;}
+
+#main{grid-area:main;
+      font-size:20px;}
+
+#side{grid-area:side;}
+
+
+#footer{grid-area:footer;
+        text-align:center;
+        font-size:15px;}
+
+ul{list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color:azure;}
+
+li{float: left;}
+
+li a {display:block;
+      color:cornflowerblue;
+      text-align:center;
+      padding: 14px 16px;
+      text-decoration:none;}
+/*Change the link color to black on hover */
+li a:hover{background-color:floralwhite;}
